@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+body {
+  background-image: url("https://images.pexels.com/photos/945688/pexels-photo-945688.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  font-size: 1em;
+}
+
+h4 {
+  font-size: 0.75em;
+}
+
+header {
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#page-logo {
+  height: 50px;
+}
+
+#page-branding {
+  width: 80%;
+  justify-content: flex-start;
+}
+
+h2 {
+  font-size: 2em;
+  text-align: left;
+  margin-top: 30px;
+  width: 332px;
+}
+
+#content-description {
+  display: none;
+}
+
+#page-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin-top: 10px;
+  margin-left: 30px;
+  padding: 10px;
+  height: 75vh;
+}
+
+#gallery-btn {
+  visibility: hidden;
+}
+
+#gallery-menu {
+  display: inline;
+}
+#gallery-menu > img {
+  height: 30px;
+}
+
+#content-tagline {
+  margin-bottom: 80px;
+  font-size: 1.25em;
+}
+
+#email-input {
+  padding: 5px;
+  width: 230px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 2px;
+}
